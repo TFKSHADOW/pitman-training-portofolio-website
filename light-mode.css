@@ -1,0 +1,65 @@
+/* LIGHT MODE STYLES */
+body {
+    background: #f5f5f5;
+    color: #121212;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* NAVIGATION */
+nav {
+    background: white;
+}
+
+.nav-links a {
+    color: #121212;
+}
+
+.nav-links a:hover {
+    color: #0077ff;
+}
+
+/* BUTTONS */
+.btn {
+    background: #0077ff;
+    color: white;
+}
+
+.btn:hover {
+    background: #005bb5;
+}
+
+/* ABOUT & EXPERIENCE SECTION */
+.details-container {
+    background: white;
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
+
+/* SOCIAL ICONS & IMAGES */
+.icon {
+    filter: invert(0); /* Ensures normal colors in light mode */
+}
+
+/* FOOTER */
+footer {
+    background: white;
+    color: black;
+}
+
+
+
+
+/* LOGO STYLES IN LIGHT MODE */
+.home-btn {
+    color: black; /* Ensures visibility */
+    background: transparent;
+}
+
+.home-btn:hover {
+    opacity: 0.8;
+}
+
+/* If using a logo image */
+.logo img {
+    filter: invert(0); /* Keeps original color */
+}

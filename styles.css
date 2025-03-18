@@ -367,72 +367,157 @@ h1.title {
     text-align: center;
 }
 
+
+/*  ----------------------------------------------------------------- */
+
+
+/* PROJECTS SECTION */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 5%;
+}
+
+/* PROJECTS TITLE CENTERED */
+.projects .section__text__p1,
+.projects .title {
+    text-align: center;
+}
+
+/* PROJECTS CONTAINER */
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* FLEX WRAP CONTAINER FOR PROJECTS */
+.about-containers {
+    display: flex;
+    flex-wrap: wrap; /* Enables wrapping */
+    justify-content: center; /* Centers projects */
+    gap: 20px; /* Space between projects */
+    max-width: 1200px; /* Keeps the section responsive */
+}
+
+/* PROJECT CARD */
+.details-container {
+    flex: 1 1 300px; /* Responsive grid sizing */
+    max-width: 350px; /* Ensures uniformity */
+    background: #222;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* HOVER EFFECT */
+.details-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* PROJECT IMAGE */
+.project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 200px; /* Prevents large images from breaking layout */
+    object-fit: cover;
+}
+
+/* PROJECT TITLE */
+.project-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* BUTTON CONTAINER */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* PROJECT BUTTONS */
+.project-btn {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.project-btn:hover {
+    background-color: darkblue;
+}
+
+
 /*  ----------------------------------------------------------------- */
 
 /* CONTACT SECTION */
 #contact {
-    text-align: center; /* Centers text */
-    padding: 50px 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    text-align: center;
+    padding: 40px 5%;
 }
 
-/* CONTACT TEXT */
-.section__text__p1 {
-    font-size: 1.2rem;
-    color: #bbb;
+/* CONTACT TITLE CENTERED */
+#contact .section__text__p1,
+#contact .title {
+    text-align: center;
 }
 
-h1.title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-/* CONTACT INFO CONTAINER */
+/* CONTACT CONTAINER */
 .contact-info-upper-container {
     display: flex;
     justify-content: center;
-    gap: 2rem; /* Adds space between contact items */
+    gap: 20px;
     margin-top: 20px;
 }
 
 /* CONTACT BOXES */
 .contact-info-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    background: white;
-    padding: 15px 20px;
+    justify-content: center;
+    background: #fff;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    min-width: 200px;
-    max-width: 250px;
+    padding: 10px 15px;
+    min-width: 200px; /* Makes the box smaller */
+    min-height: 50px; /* Reduces the height */
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-/* ICONS SIZE REDUCED */
-.contact-info-container .icon {
-    width: 35px; /* Adjust the size */
+/* CONTACT BOX HOVER */
+.contact-info-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* CONTACT ICONS */
+.contact-icon {
+    width: 20px;
     height: auto;
-    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 /* CONTACT LINKS */
-.contact-info-container p a {
-    color: black;
+.contact-info-container a {
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
+    color: #333;
+    font-size: 0.95rem; /* Adjusts font size */
 }
-
-.contact-info-container p a:hover {
-    color: #0077ff;
-}
-
-
 
 
 

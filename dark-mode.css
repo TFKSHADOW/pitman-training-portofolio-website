@@ -1,0 +1,65 @@
+/* DARK MODE STYLES */
+.dark-mode {
+    background: #121212;
+    color: white;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* NAVIGATION */
+.dark-mode nav {
+    background: #1e1e1e;
+}
+
+.dark-mode .nav-links a {
+    color: #f5f5f5;
+}
+
+.dark-mode .nav-links a:hover {
+    color: #bbb;
+}
+
+/* BUTTONS */
+.dark-mode .btn {
+    background: #0077ff;
+    color: white;
+}
+
+.dark-mode .btn:hover {
+    background: #005bb5;
+}
+
+/* ABOUT & EXPERIENCE SECTION */
+.dark-mode .details-container {
+    background: #222;
+    color: #f5f5f5;
+    border-color: #444;
+}
+
+/* SOCIAL ICONS & IMAGES */
+.dark-mode .icon {
+    filter: invert(1); /* Ensures visibility in dark mode */
+}
+
+/* FOOTER */
+.dark-mode footer {
+    background: #181818;
+    color: white;
+}
+
+
+
+
+/* LOGO STYLES IN DARK MODE */
+.dark-mode .home-btn {
+    color: white; /* Ensures visibility */
+    background: transparent;
+}
+
+.dark-mode .home-btn:hover {
+    opacity: 0.8;
+}
+
+/* If using a logo image */
+.dark-mode .logo img {
+    filter: invert(1); /* Turns dark logo white */
+}
