@@ -1,0 +1,169 @@
+/* ============================================================= */
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+/* ============================================================= */
+
+/* SMALLER SCREENS: Tablets & Small Laptops (max-width: 1024px) */
+@media (max-width: 1024px) {
+    /* Profile Section */
+    #profile {
+        flex-direction: column; /* Stack image and text */
+        text-align: center;
+    }
+
+    .section__pic-container {
+        max-width: 300px;
+    }
+
+    .section__text {
+        max-width: 80%;
+    }
+
+    /* About Section */
+    .section-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .about-containers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Experience Section */
+    .experience-details-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Projects Section */
+    .about-containers {
+        justify-content: center;
+    }
+
+    .details-container {
+        max-width: 300px;
+    }
+
+    /* Contact Section */
+    .contact-info-upper-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Navigation */
+    .nav-links {
+        gap: 2rem;
+    }
+}
+
+/* MOBILE PHONES: (max-width: 768px) */
+@media (max-width: 768px) {
+    /* NAVIGATION */
+    .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 5%;
+    }
+
+    /* Profile Section */
+    #profile {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .section__pic-container {
+        max-width: 250px;
+    }
+
+    .section__text {
+        max-width: 90%;
+    }
+
+    /* About Section */
+    .section-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .about-containers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Experience Section */
+    .experience-details-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Projects Section */
+    .about-containers {
+        justify-content: center;
+    }
+
+    .details-container {
+        max-width: 300px;
+    }
+
+    /* Contact Section */
+    .contact-info-upper-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Social Icons */
+    #socials-container {
+        gap: 5px;
+    }
+
+    .icon {
+        width: 40px; /* Smaller size */
+    }
+
+    /* Fixed Arrow */
+    .icon.arrow {
+        width: 30px;
+    }
+}
+
+/* EXTRA SMALL SCREENS: (max-width: 480px) */
+@media (max-width: 480px) {
+    /* Reduce Padding */
+    body {
+        padding: 0 5%;
+    }
+
+    /* Reduce Button Size */
+    .btn {
+        padding: 8px 15px;
+        font-size: 0.85rem;
+    }
+
+    /* Profile Image */
+    .section__pic-container {
+        max-width: 200px;
+    }
+
+    /* Text Styling */
+    .title {
+        font-size: 2.5rem;
+    }
+
+    /* Contact Boxes */
+    .contact-info-container {
+        min-width: 160px;
+        min-height: 40px;
+    }
+
+    /* Project Images */
+    .project-img {
+        max-height: 150px;
+    }
+}
