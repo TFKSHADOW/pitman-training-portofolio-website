@@ -167,3 +167,22 @@
         max-height: 150px;
     }
 }
+
+
+
+/* SHOW MENU ONLY ON MOBILE */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}

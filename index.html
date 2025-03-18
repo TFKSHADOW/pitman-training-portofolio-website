@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- Fixed Logo Button (Home) -->
-    <a href="#" class="logo home-btn">My Logo</a>
+    <a href="#" class="logo home-btn"><img id="logo_home_button" src="./images/logo.jpg" alt="logo"></a>
 
     <!-- Dark Mode Toggle -->
     <button id="dark-mode-toggle" class="dark-mode-btn">🌙 Dark Mode</button>
@@ -28,7 +28,7 @@
 
     <section id="profile">
         <div class="section__pic-container">
-            <img id="round-corners" src="./images/profile pic.jpg" alt="my profile picture">
+            <img id="round-corners" src="./images/portrait.webp"  alt="my profile picture">
         </div>
         <div class="section__text">
             <p class="section_text__p1"> Hello, I'm </p>
@@ -39,59 +39,50 @@
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
             </div>
             <div id="socials-container">
-                <img src="./images/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://linkedin.com/'">
-                <img src="./images/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/'">
+                <img src="./images/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='linkedin.com/in/george-stoica-995bb3238'">
+                <img src="./images/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/TFKSHADOW'">
             </div>
         </div>
     </section>
 
 
     <section id="about">
-        
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
           <div class="section__pic-container">
-            <img
-              src="./images/profile pic.jpg"
-              alt="Profile picture"
-              class="about-pic"
-            />
+              <img src="./images/portofoliowebsite.webp" alt="Profile picture" class="about-pic" />
           </div>
+  
           <div class="about-details-container">
-            <div class="about-containers">
-              <div class="details-container">
-                <img
-                  src="./images/experience.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <h3>Experience</h3>
-                <p>1+ years learning <br />Frontend Development</p>
+              <div class="about-containers">
+                  <div class="details-container">
+                      <img src="./images/experience.png" alt="Experience icon" class="icon" />
+                      <h3>Experience</h3>
+                      <p>1+ years learning <br />Frontend Development</p>
+                  </div>
+                  <div class="details-container">
+                      <img src="./images/education.png" alt="Education icon" class="icon" />
+                      <h3>Education</h3>
+                      <p>B.Sc. Bachelor's Degree in Business Management<br />B.Sc. Bachelor's Degree in Systems Engineering</p>
+                  </div>
               </div>
-              <div class="details-container">
-                <img
-                  src="./images/education.png "
-                  alt="Education icon"
-                  class="icon"
-                />
-                <h3>Education</h3>
-                <p>B.Sc. Bachelors Degree in Business Management<br />B.Sc. Bachelors Degree in Sistems Enginieering</p>
-              </div>
-            </div>
-            <div class="text-container">
-              <p>
-                descriere aia blanao despre mine
-              </p>
-            </div>
           </div>
-        </div>
-        <img
-          src="./images/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#experience'"
-        />
-      </section>
+      </div>
+  
+      <!-- Moved text-container outside section-container to ensure full width -->
+      <div class="text-container">
+          <p>
+              I am a dedicated and driven individual with a solid foundation in Business Management and a passion for technology. With a Bachelor's degree in Business Management, I have developed strong analytical skills and gained valuable insights into strategic planning and organizational behavior.  
+  
+              Throughout my academic journey, I have demonstrated a keen ability to adapt to new challenges and environments. My experience in web development, combined with my business management background, provides me with a unique blend of technical and strategic skills.  
+  
+              I am a proactive problem solver with a meticulous attention to detail, capable of analyzing data and deriving actionable insights to drive decision-making processes. I thrive in collaborative environments and am committed to continuous learning and growth. With a strong foundation in both business and technology, I am eager to apply my skills to innovative projects and further develop my expertise in this dynamic field.
+          </p>
+      </div>
+  
+      <img src="./images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  
       <section id="experience">
         <p class="section__text__p1">Explore My</p>
         <h1 class="title">Experience</h1>
@@ -141,7 +132,7 @@
                   />
                   <div>
                     <h3>JavaScript</h3>
-                    <p>Basic</p>
+                    <p>Experienced</p>
                   </div>
                 </article>
                 <article>
@@ -298,7 +289,7 @@
         alt="Email icon"
         class="icon contact-icon email-icon"
       />
-      <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+      <p><a href="mailto:examplemail@gmail.com">tfk.george@gmail.com</a></p>
     </div>
     <div class="contact-info-container">
       <img
@@ -306,7 +297,7 @@
         alt="LinkedIn icon"
         class="icon contact-icon"
       />
-      <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+      <p><a href="linkedin.com/in/george-stoica-995bb3238">LinkedIn</a></p>
     </div>
   </div>
 </section>

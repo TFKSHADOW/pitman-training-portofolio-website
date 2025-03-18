@@ -21,20 +21,35 @@ html {
 
 /* ----------------------------------------------------------*/ 
 
-/* FIXED LOGO BUTTON */
+/* FIXED LOGO BUTTON (HOME) */
 .home-btn {
     position: fixed;
     top: 20px;
-    left: 20px;
-    background: transparent;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-    z-index: 1000; /* Ensures it's always visible */
+    left: 40px;
+    z-index: 1000; /* Ensures it stays above other elements */
 }
+
+#logo_home_button {
+    width: 80px; /* Adjust the size */
+    height: auto;
+    border-radius: 8px; /* Optional: Adds slight rounding */
+    transition: transform 0.2s ease-in-out;
+}
+
+/* LOGO IMAGE */
+#logo_home_button {
+    width: 100px; /* Adjust logo size */
+    height: auto;
+    object-fit: contain; /* Prevents stretching */
+    border-radius: 8px; /* Optional: Slight rounding */
+    transition: transform 0.2s ease-in-out;
+}
+
+/* HOVER EFFECT */
+#logo_home_button:hover {
+    transform: scale(1.1);
+}
+
 
 /* HOVER EFFECT */
 .home-btn:hover {
@@ -112,12 +127,16 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+   
 }
+
+
 
 .section__pic-container img {
    width: 80%;
     height: auto;
     border-radius: 12px;
+    
 }
 
 /* PROFILE TEXT ----------------------------------------------------------------------------------------------------------*/
@@ -378,6 +397,8 @@ h1.title {
     align-items: center;
     text-align: center;
     padding: 40px 5%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 /* PROJECTS TITLE CENTERED */
@@ -517,6 +538,7 @@ h1.title {
     font-weight: bold;
     color: #333;
     font-size: 0.95rem; /* Adjusts font size */
+    text-align: center;
 }
 
 
@@ -568,3 +590,22 @@ footer {
 .icon.arrow:hover {
     transform: scale(1.1);
 }
+
+
+
+
+
+
+
+
+
+/* ---extra-------------------------------*/
+
+menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+/* ----------------------------------*/

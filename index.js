@@ -42,3 +42,12 @@ function updateIcons() {
 // Run updateIcons initially and on toggle
 updateIcons();
 darkModeToggle.addEventListener('click', updateIcons);
+
+
+
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
