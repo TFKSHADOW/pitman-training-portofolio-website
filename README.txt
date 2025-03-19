@@ -28,6 +28,27 @@ This is a responsive portfolio website showcasing my skills, projects, and exper
 │── images/                 # All project and profile images
 ```
 
+Projects used:
+Bootstrap Project
+​The Bootstrap Assignment is a project that utilizes the Bootstrap framework to create a responsive and visually appealing website. By leveraging Bootstrap's pre-designed components and grid system, the project achieves a modern design with minimal custom CSS.
+
+One Page Project
+The OnePageProject is a modern, responsive, and visually appealing single-page website designed to showcase a personal portfolio, business, or service offerings. It follows a structured layout that ensures a clean user experience while maintaining accessibility and responsiveness across different screen sizes.
+
+Space Resort Assignment
+The SpaceResortAssignment is a conceptual project that presents a futuristic space resort website, combining imaginative design with foundational web development techniques.
+
+The Space Project
+The Space Project is a creative endeavor that showcases a space-themed website, combining engaging visuals with foundational web development practices.
+
+WORD GENERATOR IN JAVASCRIPT
+The WORD-GENERATOR-IN-JAVASCRIPT project is designed to produce randomized messages each time it's executed. This functionality can be applied to generate outputs like astrological predictions, inspirational quotes, or humorous phrases. The core objective is to ensure that each message is composed of at least three distinct data elements, resulting in a unique and unpredictable output with every run.
+
+Spotify API
+The jammming-spotify-api project is a web application developed using React that allows users to create custom playlists and save them directly to their Spotify account. By integrating with the Spotify API, the application enables users to search for songs, compile them into a playlist, and then save that playlist to their Spotify profile.
+
+
+
 ## **Setup & Installation**
 1. Clone the repository or download the files.
    ```
